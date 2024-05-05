@@ -1,0 +1,72 @@
+.aleo {
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 {
+    font-size: 35px;
+    margin: 0px 0px;
+    color: #000000;
+    text-align: center;
+}
+  .navbar {
+      background-color:#9B3009 !important;
+      color: #FFFFFF !important;
+      font-family: "Aleo", serif;
+      display:flex;
+  }
+  .nav-item{
+      color: #FFFFFF !important;
+      font-family: "Aleo", serif;
+  }
+  .nav-link{
+      color: #FFFFFF !important;
+      font-family: "Aleo", serif;
+  }
+  .form-inline my-2 my-lg-0{
+      width:50%;
+  }
+#btn-primary {
+    background-color:#9B3009;
+    border-radius: 8px;
+    border-color: #9B3009;
+    margin: 25px;
+    color: white;
+    justify-content: 0px 0%;
+    cursor: pointer;
+    height: 55px;
+    width: 135px;
+    font-size: 16px;
+  }
+
+  .productcard{
+
+    margin-left: 24px;
+  }
+  .infosection{
+    margin-left: 24px;
+  }
+
+  @media (max-width:1440px){
+    .productcard{
+        width: 40%;
+      }
+      .infosection{
+        width: 40%;
+      }
+      .product {
+        size-adjust: 40%;
+      }
+    }
+@media (max-width:1300px){
+    .productcard{
+        width: 90%;
+      }
+      .infosection{
+        width: 90%;
+      }
+      .product {
+        size-adjust: 90%;
+      }
+    }
